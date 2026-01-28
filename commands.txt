@@ -1,1 +1,1 @@
-echo PROXY ONLINE
+echo LOCAL CONTROL
