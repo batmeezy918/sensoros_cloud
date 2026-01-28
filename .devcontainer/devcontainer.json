@@ -1,0 +1,17 @@
+{
+  "name": "Android Cloud Build",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install -y wget unzip git gradle android-sdk",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-androidtools.vscode-android"
+      ]
+    }
+  }
+}
